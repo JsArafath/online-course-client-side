@@ -124,7 +124,7 @@ const Register = () => {
               <div className="divider px-5 mt-5">OR</div>
               <div>
               <small>
-              Login With Social Accounts
+              Login With Social Account's
               </small>
               </div>
 

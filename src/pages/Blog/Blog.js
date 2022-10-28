@@ -18,14 +18,6 @@ const FAQ = ({ children, title }) => {
                             <br />
                             <br />
                             In other words, CORS is a browser security feature that restricts cross-origin HTTP requests with other servers and specifies which domains access your resources.
-                            <br />
-
-                            If The client and server have a different origin from each other, i.e., accessing resources from a different server. In this case, trying to make a request to a resource on the other server will fail.
-                            <br />
-                            <br />
-
-                                This is a security concern for the browser. CORS comes into play to disable this mechanism and allow access to these resources. CORS will add a response header access-control-allow-origins and specify which origins are permitted. CORS ensures that we are sending the right headers.
-
                             </p>
                         </div>
                         

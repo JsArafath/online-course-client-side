@@ -10,8 +10,9 @@ const CourseDetails = () => {
   const { id, courseName, description, name, img, } = courseData;
   
   return (
-    <div className="">
-        <div className="hero min-h-screen bg-base-200">
+    
+        <div>
+          <div className="hero min-h-screen pt-44 bg-base-200">
             <div className="hero-content flex-col lg:flex-row">
                 <img className="w-[25%] rounded-lg shadow-2xl ms-10 " src={img} alt="" />
                 <div>
@@ -38,7 +39,7 @@ const CourseDetails = () => {
                 
             </div>
         </div>
-    </div>
+        </div>
     
   );
 };

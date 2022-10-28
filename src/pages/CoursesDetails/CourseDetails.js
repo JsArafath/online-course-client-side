@@ -26,7 +26,7 @@ const CourseDetails = () => {
                     </Link>
                     <div className="py-6">
                     
-                    <Pdf targetRef={ref} filename="learn-physics.pdf">
+                    <Pdf targetRef={ref} filename="trainig-online.pdf">
                 {({ toPdf }) => (
                   <button className=" text-3xl " onClick={toPdf}>
                     <BsFilePdf></BsFilePdf>

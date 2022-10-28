@@ -5,7 +5,7 @@ const FAQ = ({ children, title }) => {
       <div className="hero min-h-screen bg-base-200">
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold">FAQ</h1>
+          <h1 className="text-5xl text-teal-500 font-bold">FAQ</h1>
           <p className="py-6">FAQ page continue to be a priority area for SEO and digital marketing professionals.</p>
 
           <p className="py-6">An FAQ page is one of the simplest ways to improve your site and help site visitors and users.</p>

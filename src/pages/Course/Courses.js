@@ -12,7 +12,7 @@ const Courses = () => {
         {data.map((option) => (
           <p
             key={option.id}
-            className="mb-4 font-semibold text-lg text-gray-200 mt-5"
+            className="mb-4 font-semibold text-lg text-gray-100 mt-5"
           >
             <Link to={`/course/${option.id}`}>
               {" "}

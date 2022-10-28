@@ -13,13 +13,13 @@ const CheckOut = () => {
         <div className="md:w-1/2  text-start px-5">
           <h2 className="text-2xl font-semibold mb-3">Complete Payment</h2>
           <p className="text-gray-200">
-            <span className="font-semibold ">Step 1: Account Creation</span> |{" "}
+            <span className="font-semibold "> 1: Account Creation</span> |{" "}
             <span className="font-semibold text-teal-600">
-              Step 2: Payment Details
+              2: Payment Details
             </span>
           </p>
           <h1 className="text-2xl font-bold mt-7 mb-2">Secure Checkout</h1>
-          <p className="font-semibold text-gray-200">
+          <p className="font-semibold text-gray-400">
             {" "}
             <MdOutlinePayment className="inline"></MdOutlinePayment> Payment
             Method
@@ -39,7 +39,7 @@ const CheckOut = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text font-semibold">Name on Card</span>
+                <span className="label-text font-semibold">Name on the Card</span>
               </label>
               <input
                 type="text"
@@ -48,7 +48,7 @@ const CheckOut = () => {
               />
             </div>
             <button className="btn btn-primary bg-teal-600 border-0 w-full my-8">
-              Complete Purchase
+               Purchase Complete
             </button>
             
           </div>

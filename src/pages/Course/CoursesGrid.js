@@ -13,10 +13,6 @@ const CoursesGrid = ({ data }) => {
           </figure>
           <div className="card-body  bg-gray-900 text-start">
             <div className="h-32">
-              {/* <div className="flex items-center">
-                <img className="mr-2" src={providerImage} alt="" />
-                
-              </div> */}
               <h2 className="card-title mt-1 text-teal-400">{name}</h2>
               <span className="text-gray-200">{descp}</span>
             </div>

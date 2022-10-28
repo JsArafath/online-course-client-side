@@ -40,7 +40,7 @@ export const router = createBrowserRouter([
         path: "course/:id",
         element: <CourseDetails></CourseDetails>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5002/course/${params.id}`),
+          fetch(`https://teaching-main-server-jsarafath.vercel.app/course/${params.id}`),
       },
       {
         path: "/checkout/:id",
@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5002/course/${params.id}`),
+          fetch(`https://teaching-main-server-jsarafath.vercel.app/course/${params.id}`),
       },
       {
         path: "blog",

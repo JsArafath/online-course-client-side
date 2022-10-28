@@ -34,13 +34,13 @@ export const router = createBrowserRouter([
       {
         path: "courses",
         element: <Courses></Courses>,
-        loader: () => fetch("https://teaching-main-server.vercel.app/web-courses"),
+        loader: () => fetch("https://teaching-main-server.vercel.app/courses"),
       },
       {
         path: "course/:id",
         element: <CourseDetails></CourseDetails>,
         loader: ({ params }) =>
-          fetch(`https://teaching-main-server-jsarafath.vercel.app/course/${params.id}`),
+          fetch(`https://teaching-main-server.vercel.app/coursee/${params.id}`),
       },
       {
         path: "/checkout/:id",
@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
           </PrivetRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://teaching-main-server-jsarafath.vercel.app/course/${params.id}`),
+          fetch(`https://teaching-main-server.vercel.app/coursee/${params.id}`),
       },
       {
         path: "blog",

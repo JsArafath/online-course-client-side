@@ -135,7 +135,7 @@ const Navbar = () => {
                       >
                         <img
                           className="w-11 rounded-full"
-                          src="https://png.pngtree.com/png-vector/20220111/ourlarge/pngtree-physics-globe-illustration-logo-png-image_4261809.png"
+                          src="https://www.pinclipart.com/picdir/middle/165-1653686_female-user-icon-png-download-user-colorful-icon.png"
                           alt=""
                         />
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
@@ -219,7 +219,7 @@ const Navbar = () => {
                             aria-label="Log in"
                             title="Log in"
                           >
-                            Log inmmmm
+                            Log In
                           </Link>
                         )}
                       </li>
